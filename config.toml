@@ -1,0 +1,137 @@
+baseurl = "http://portfolio.bendobbs.com/"
+languageCode = "en-us"
+title = "Ben Dobbs's Portfio of Works"
+theme = "hugo-strata-theme"
+# disqusShortname = "spf13"
+# Enable Google Analytics by inserting your tracking code
+# googleAnalytics = ""
+# Define how many posts should appear on a site
+paginate = 10
+
+[params]
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Ben Dobbs"
+	description = "This is my portfolio of works.  Some completed, some in progress, some abandoned"
+
+	# Format dates with Go's time formatting
+	date_format = "2006-01-02"
+
+	# Add custom assets with their paths relative to the static folder
+	custom_js   = []
+	custom_css  = []
+
+
+	[params.sidebar]
+		# Replace the avatar with a picture of your own under static/images
+		avatar = "avatar.jpg"
+		# Use Markdown to format the string. This works nearly all over the theme
+		bio = "**I'm Ben Dobbs**, a Maker.<br> Please take a look at some of <br> the projects I've worked on."
+		# The icons will be shown if you enter your username
+	#	twitter = ""
+	#	github = ""
+	#	dribbble = ""
+	#	facebook = ""
+	#	googleplus = ""
+	#	flickr = ""
+	#	linkedin = ""
+
+		copyright = [
+			"&copy; Ben Dobbs",
+			"Design: [HTML5 UP](//html5up.net)"
+		]
+
+
+	[params.about]
+		hide  = false
+		title = "Always learning, always making."
+		content = "In a never ending quest for learning more, here are the projects I've worked on.  I've found that the best way for me to learn something new is not to read a book but to work on a project that is heavily related to what I want to learn.  Should there be any struggles along the way, it's no problem, just another thing to learn."
+
+
+	[params.portfolio]
+		hide  = false
+		title = "Recent Work"
+
+		# The images and thumbnails are stored under static/images
+		# Create and change subfolders as you like
+		[[params.portfolio.gallery]]
+			image = "fulls/IMG-20151013-WA0000.jpg"
+			thumb = "thumbs/IMG-20151013-WA0000.jpg"
+			title = "Enter MacBook Pro"
+			description = "My wife's old water damaged laptop.  I took out the mainboard and tried to clean it up in hopes of it functioning properly.  No luck.  At least we were able to replace her battery in her newer laptop that was bad with the one from this older laptop."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/IMG-20151021-WA0006.jpg"
+			thumb = "thumbs/IMG-20151021-WA0006.jpg"
+			title = "Desktop Shelf"
+			description = "Made from reclaimed wood from shipping pallets, this was a fun project.  The most pleasant part of this was the wonderful pine smell when the wood was cut."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/IMG-20151024-WA0003.jpg"
+			thumb = "thumbs/IMG-20151024-WA0003.jpg"
+			title = "3d Printed Ball in a Cube"
+			description = "The design was downloaded from thingiverse.com and I scaled it down a bit.  This object was 3d printed for a 3d printing workshop I taught."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/IMG-20151113-WA0003.jpg"
+			thumb = "thumbs/IMG-20151113-WA0003.jpg"
+			title = "Makey-Makey game controller"
+			description = "This game controller was to give workshop participants an example of what they can do with the makey-makey.  Through capacative touch, a person can touch a conductive surface to control a computer."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/IMG_20151114_155950.jpg"
+			thumb = "thumbs/IMG_20151114_155950.jpg"
+			title = "3d Printing participant designs"
+			description = "Workshop participants designed models.  Each model had it's own problem printing but the output is an excellent display of things to be aware of when designing and printing.  The bird design had it's wings too thin, so you couldn't possibly remove it from it's support structure.  The other design was quite intricate and had issues with warpage due to it's very delicate design."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/IMG_20151207_170440.jpg"
+			thumb = "thumbs/IMG_20151207_170440.jpg"
+			title = "Makey-Makey copy"
+			description = "The Makey-Makey is a great input device for a computer.  But one issue I noticed is that it's a bit expensive for most Indonesians as the price is around Rp500,000.  I was able to build one of these for around rp70,000.  But, I could not get this to work properly and a friend was quick to point out that there's a device already made for about Rp75,000 that does the same thing.  Live and learn."
+
+
+	[params.contact]
+		hide  = false
+		title = "Get In Touch"
+		content = "If something peaks your interest, please feel free to contact me.  I'm open to sharing my knowledge and prov"
+
+		address = [
+			"Ciledug",
+			"Tangerang",
+			"Indonesia"
+		]
+		phone = "+62-8129-8000-825"
+
+		# Since this template is static, the contact form uses www.formspree.io as a
+		# proxy. The form makes a POST request to their servers to send the actual
+		# email. Visitors can send up to a 1000 emails each month for free.
+	    #
+	    # What you need to do for the setup?
+	    #
+	    # - set your email address under 'email' below
+	    # - upload the generated site to your server
+	    # - send a dummy email yourself to confirm your account
+	    # - click the confirm link in the email from www.formspree.io
+	    # - you're done. Happy mailing!
+		email = "ben@bendobbs.com"
+
+		[params.contact.form]
+			# Set custom strings for the form if your native
+			# language isn't English
+			name = "Name"
+			email = "Email"
+			message = "Message"
+			submit = "Send message"
+
+
+# Menu links that appear on the left sidebar
+[[menu.main]]
+	name = "Home"
+	url  = "/"
+	weight = 0
+
+[[menu.main]]
+	# name = "Blog"
+	# url  = "post/"
+	# weight = 10

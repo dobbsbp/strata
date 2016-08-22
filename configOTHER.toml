@@ -1,0 +1,32 @@
+languageCode = "en-us"
+contentdir = "content"
+publishdir = "public"
+builddrafts = true
+baseurl = "http://www.bendobbs.com"
+canonifyurls = true
+title = "Ben Dobbs"
+author = "Ben Dobbs"
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+theme = "hugo-strata-theme"
+favicon = "favicon.ico"
+# desc  = "Mechanic, Tinkerer, Maker"
+
+
+[indexes]
+category = "categories"
+tag = "tags"
+[params]
+description = "Mechanic, Tinkerer, Maker"
+AuthorName = "Ben Dobbs"
+logo = "/images/logo-1.jpg"
+
+# cv = "/grbl/"
+ cnc = "http://cnc.bendobbs.com/"
+ gsm = "http://gsm.bendobbs.com"
+ pp = "http://plastic.bendobbs.com"
+ facebook = "ben.dobbs.3"
+ github = "dobbsbp"
+ disqus = "bendobbs"
+ twitter = "dobbsbp"
+ email = "ben@bendobbs.com"
+ cover = "/images/sunset.jpg"
